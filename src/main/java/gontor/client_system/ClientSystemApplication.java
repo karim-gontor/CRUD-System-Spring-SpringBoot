@@ -135,7 +135,7 @@ public class ClientSystemApplication implements CommandLineRunner {
 					logger.info("Cliente con ID: " + idCliente + " NO encontrado");
 			}
 			case 5 -> {
-				logger.info(newLine + "--- Modificar cliente ---" + newLine);
+				logger.info(newLine + "--- Eliminar cliente ---" + newLine);
 				logger.info("Introduzca ID del cliente: ");
 				int idCliente = Integer.parseInt(consola.nextLine());
 
